@@ -9446,7 +9446,7 @@ form.form-dark .form-control:focus {
 *****************************/
 .site-footer {
   background-color: #000000;
-  padding-top: 145px;
+  /* padding-top: 145px; */
   position: relative;
   z-index: 9;
   /*-------------------------*/
@@ -9464,9 +9464,9 @@ form.form-dark .form-control:focus {
   --bs-gutter-y: 50px;
 }
 
-.site-footer {
+/* .site-footer {
   margin-top: 130px;
-}
+} */
 
 
 
