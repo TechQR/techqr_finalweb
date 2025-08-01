@@ -3549,20 +3549,20 @@ blockquote.blockquote-style-1:before {
   border-bottom-color: #77BEFF;
 }
 
-.case-studies-wrapper.case-studies-style-2 .case-studies-item:hover .item-inner .case-studies-title,
+/* .case-studies-wrapper.case-studies-style-2 .case-studies-item:hover .item-inner .case-studies-title,
 .case-studies-wrapper.case-studies-style-2 .case-studies-item:hover .item-inner .case-studies-description {
   opacity: 0;
   pointer-events: none;
-}
+} */
 
 .case-studies-wrapper.case-studies-style-2 .case-studies-item:hover .case-studies-action {
   z-index: 8;
 }
 
-.case-studies-wrapper.case-studies-style-2 .case-studies-item:hover .marquee-wrapper {
+/* .case-studies-wrapper.case-studies-style-2 .case-studies-item:hover .marquee-wrapper {
   opacity: 1;
   pointer-events: auto;
-}
+} */
 
 /*Case Study Single*/
 .case-info-section {
@@ -7121,10 +7121,9 @@ form.form-dark .form-control:focus {
 /*-----------------------------------*/
 .main-banner-1 {
   padding-top: 230px;
-  padding-bottom: 150px;
   overflow: visible;
   position: relative;
-  height: 1070px;
+  height: 550px;
 }
 
 .main-banner-1 .banner-bg-one {
@@ -7154,11 +7153,18 @@ form.form-dark .form-control:focus {
   position: relative;
 }
 
-.main-banner-1 .banner-content h2 {
+.main-banner-1 .banner-content {
   margin-bottom: 44px;
   line-height: 68px;
   text-transform: capitalize;
 }
+
+h2 {
+  line-height: 68px;
+  text-transform: capitalize;
+}
+
+
 
 .main-banner-1 .banner-content .attract-hover {
   position: absolute;
@@ -7368,7 +7374,7 @@ form.form-dark .form-control:focus {
 
   /* Main Banner 1 ----------*/
   .main-banner-1 {
-    height: 870px;
+    height: 500px;
   }
 
   .main-banner-1 .banner-title {
@@ -7428,7 +7434,7 @@ form.form-dark .form-control:focus {
 
   /* Main Banner 1 ----------*/
   .main-banner-1 {
-    height: 840px;
+    height: 500px;
     padding-top: 180px;
   }
 
@@ -7494,7 +7500,7 @@ form.form-dark .form-control:focus {
 
   /* Main Banner 1 ----------*/
   .main-banner-1 {
-    height: 650px;
+    height: 50px;
     padding-top: 125px;
   }
 
