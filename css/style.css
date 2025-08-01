@@ -6405,6 +6405,8 @@ form.form-dark .form-control:focus {
   justify-content: space-between;
 }
 
+
+
 .offcanvas.menu-overlay-offcanvas .bottom-info .contact-info .number {
   color: #ffffff;
 }
@@ -6626,9 +6628,16 @@ form.form-dark .form-control:focus {
   border-top: 3px solid #000000;
 }
 
-.offcanvas-body .contact-info .number {
-  font-size: 30px;
-  font-weight: 600;
+.offcanvas-body .contact-info  {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: -2px;
+}
+
+.number {
+  font-size: 20px;
+  font-weight: 400;
   color: #ffffff;
   letter-spacing: -2px;
 }
@@ -7500,7 +7509,7 @@ h2 {
 
   /* Main Banner 1 ----------*/
   .main-banner-1 {
-    height: 50px;
+    height: 500px;
     padding-top: 125px;
   }
 
